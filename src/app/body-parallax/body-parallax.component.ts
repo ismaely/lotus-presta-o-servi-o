@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-//import $ from "jquery";
+import $ from "jquery";
+//import {MatIconModule} from '@angular/material/icon';
+//import { IconImportModule } from 'mat-icon-import';
 
 @Component({
   selector: 'app-body-parallax',
@@ -8,14 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BodyParallaxComponent implements OnInit {
 
-  constructor() { }
+  constructor() { 
+    $('.parallax').parallax();
+  }
 
   ngOnInit(): void {
-    //this.runParallax();
+    
+   
   }
 
 
   runParallax(){
-   // $('.parallax').parallax();
+    
   }
 }
