@@ -12,6 +12,7 @@ import { GalleryComponent } from './page/gallery/gallery.component';
 import { ServicoComponent } from './page/servico/servico.component';
 import { ContactoComponent } from './page/contacto/contacto.component';
 import { BodyParallaxComponent } from './body-parallax/body-parallax.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -30,7 +31,8 @@ import { BodyParallaxComponent } from './body-parallax/body-parallax.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

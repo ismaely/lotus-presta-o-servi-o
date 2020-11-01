@@ -11,7 +11,6 @@ import $ from "jquery";
 export class BodyParallaxComponent implements OnInit {
 
   constructor() { 
-    $('.parallax').parallax();
   }
 
   ngOnInit(): void {
