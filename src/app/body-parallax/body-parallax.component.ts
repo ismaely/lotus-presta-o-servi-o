@@ -10,16 +10,22 @@ import $ from "jquery";
 })
 export class BodyParallaxComponent implements OnInit {
 
+  paralax: any;
+  parallax: any;
   constructor() { 
+    //this.paralax = document.querySelector('.paralax');
   }
 
   ngOnInit(): void {
-    
+    //this.paralax = document.querySelector('.parallax');
+    this.runParallax();
    
   }
 
 
   runParallax(){
+
+   
     
   }
 }
