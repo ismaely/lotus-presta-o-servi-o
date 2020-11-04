@@ -13,6 +13,7 @@ import { ServicoComponent } from './page/servico/servico.component';
 import { ContactoComponent } from './page/contacto/contacto.component';
 import { BodyParallaxComponent } from './body-parallax/body-parallax.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DetalheComponent } from './page/detalhe/detalhe.component';
 
 
 
@@ -28,7 +29,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     GalleryComponent,
     ServicoComponent,
     ContactoComponent,
-    BodyParallaxComponent
+    BodyParallaxComponent,
+    DetalheComponent
   ],
   imports: [
     BrowserModule,

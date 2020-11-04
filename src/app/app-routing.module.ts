@@ -6,6 +6,7 @@ import { MenuComponent } from './menu/menu.component';
 import { ServicoComponent } from './page/servico/servico.component';
 import { GalleryComponent } from './page/gallery/gallery.component';
 import { ContactoComponent } from './page/contacto/contacto.component';
+import { DetalheComponent } from './page/detalhe/detalhe.component';
 
 
 const routes: Routes = [
@@ -41,6 +42,13 @@ const routes: Routes = [
     component: ContactoComponent,
     data: {
       title: 'Contacto'
+    }
+  },
+  {
+    path: 'detalhe',
+    component: DetalheComponent,
+    data: {
+      title: 'Detalhe'
     }
   }
 ];

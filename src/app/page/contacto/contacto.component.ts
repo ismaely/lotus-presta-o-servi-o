@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contacto.component.css']
 })
 export class ContactoComponent implements OnInit {
-
+  informacao: any = "d";
+  
   constructor() { }
 
   ngOnInit(): void {
