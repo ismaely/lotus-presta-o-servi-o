@@ -24,33 +24,11 @@ const routes: Routes = [
 
   },
   {
-    path: 'servico',
-    component: ServicoComponent,
-    data: {
-      title: 'Serviços'
-    }
-  },
-  {
-    path: 'galeria',
-    component: GalleryComponent,
-    data: {
-      title: 'Galeria'
-    }
-  },
-  {
-    path: 'contacto',
-    component: ContactoComponent,
-    data: {
-      title: 'Contacto'
-    }
-  },
-  {
-    path: 'detalhe',
-    component: DetalheComponent,
-    data: {
-      title: 'Detalhe'
-    }
+    path: 'page',
+    loadChildren: () =>
+    import("./page/pages-routing.module").then((m) => m.PagesRoutingModule)
   }
+  
 ];
 
 @NgModule({
