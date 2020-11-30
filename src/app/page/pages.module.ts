@@ -14,6 +14,11 @@ import { DetalheComponent } from './detalhe/detalhe.component';
 import { LoginComponent } from './login/login.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ServicoComponent } from './servico/servico.component';
+import { CriacaoManutencaoJardimComponent } from './criacao-manutencao-jardim/criacao-manutencao-jardim.component';
+import { ConstrucaoManutencaoPscinaComponent } from './construcao-manutencao-pscina/construcao-manutencao-pscina.component';
+import { ConstrucaoCivilComponent } from './construcao-civil/construcao-civil.component';
+import { DesinfestacaoLimpezaComponent } from './desinfestacao-limpeza/desinfestacao-limpeza.component';
+import { ManutencaoAcComponent } from './manutencao-ac/manutencao-ac.component';
 
 
 
@@ -31,6 +36,11 @@ import { ServicoComponent } from './servico/servico.component';
     LoginComponent,
     ContactoComponent,
     DetalheComponent,
+    CriacaoManutencaoJardimComponent,
+    ConstrucaoManutencaoPscinaComponent,
+    ConstrucaoCivilComponent,
+    DesinfestacaoLimpezaComponent,
+    ManutencaoAcComponent,
   ],
   imports: [
     CommonModule,
