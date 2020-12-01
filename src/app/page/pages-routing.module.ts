@@ -7,6 +7,7 @@ import { CriacaoManutencaoJardimComponent } from './criacao-manutencao-jardim/cr
 import { DesinfestacaoLimpezaComponent } from './desinfestacao-limpeza/desinfestacao-limpeza.component';
 import { DetalheComponent } from './detalhe/detalhe.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { ManutencaoAcComponent } from './manutencao-ac/manutencao-ac.component';
 import { ServicoComponent } from './servico/servico.component';
 
 CriacaoManutencaoJardimComponent
@@ -67,8 +68,16 @@ const routes: Routes = [
     data: {
       title: 'Desinfestação-e-Limpeza'
     }
+  },
+  {
+    path: 'manutencao-ac',
+    component: ManutencaoAcComponent,
+    data: {
+      title: 'Manutenção de Ac'
+    }
   }
 ];
+
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
