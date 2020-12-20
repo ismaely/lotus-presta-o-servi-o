@@ -15,15 +15,11 @@ export class MenuComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    
-  console.log(document.getElementById('mobile-demo'));
-  console.log($(".sidenav"));
-  
   
   }
 
 
-  sidenav() {
+  sidenavs() {
     $(".sidenav").sidenav();
   }
 }

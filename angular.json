@@ -23,15 +23,18 @@
               "src/favicon.ico",
               "src/assets"
             ],
+           
             "styles": [
               
               "src/assets/css/materialize.min.css",
               "node_modules/font-awesome/css/font-awesome.min.css",
               "src/styles.css"
             ],
+            
             "scripts": [
-              "src/assets/js/materialize.min.js"
-              
+              "node_modules/jquery/dist/jquery.min.js",
+              "src/assets/js/materialize.min.js",
+              "src/assets/js/myscripty.js"
               
             ]
           },
