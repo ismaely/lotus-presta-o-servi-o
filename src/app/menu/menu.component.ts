@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import $ from "jquery";
+import { fromEvent } from 'rxjs';
+import { ajax } from 'rxjs/ajax';
 
+const el = document.getElementById('mobile-demo');
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
@@ -7,9 +11,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuComponent implements OnInit {
 
+  
   constructor() { }
 
   ngOnInit(): void {
+  
   }
 
+
+  sidenavs() {
+    $(".sidenav").sidenav();
+  }
 }
